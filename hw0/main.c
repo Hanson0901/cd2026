@@ -41,7 +41,7 @@ int main(){
         if(current->character[0] == '\n'){
             printf("\\n\t\t%d\n", current->times);
         } else if(current->character[0] == '\t'){
-            printf("\\t\t%d\n", current->times);
+            printf("TAB\t%d\n", current->times);
         } else if(current->character[0] == ' '){
             printf("space\t\t%d\n", current->times);
         } else {
